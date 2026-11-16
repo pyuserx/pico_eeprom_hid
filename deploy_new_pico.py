@@ -30,7 +30,7 @@ FILES = ('boot.py', 'hid_usb.py', 'hidproto.py', 'eeprom24.py',
          'eeprom_image.py', 'main.py')
 CDC_GLOB = '/dev/cu.usbmodem*'
 BOOTSEL_GLOB = '/Volumes/RPI-RP2*'
-HOST = '/Users/mac/Downloads/PythonEEPROM_v2.py'
+HOST = os.path.join(FWDIR, 'PythonEEPROM_v2.py')
 GUI_PY = '/Users/mac/.local/bin/python3.12'
 
 
